@@ -1,1 +1,1 @@
-# sensor-measurement-ingester
+# sensor-stats-ingester
