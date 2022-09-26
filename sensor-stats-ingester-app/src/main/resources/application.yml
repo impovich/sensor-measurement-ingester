@@ -3,3 +3,8 @@ spring:
     web-application-type: none
   application:
     name: sensor-stats-ingester
+
+logging:
+  file:
+    name: ${spring.application.name}-app.log
+    path: var/log/
