@@ -1,4 +1,4 @@
-package com.fourofour.home.sensor.stats.ingester.integrations.mqtt.inveo.config
+package com.eldenit.ingester.integration.sensor.inveo.config
 
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions
 import org.springframework.boot.context.properties.ConfigurationProperties

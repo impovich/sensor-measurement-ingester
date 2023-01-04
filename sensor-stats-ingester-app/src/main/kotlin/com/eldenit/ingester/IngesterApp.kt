@@ -1,4 +1,4 @@
-package com.fourofour.home.sensor.stats.ingester
+package com.eldenit.ingester
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

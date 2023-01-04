@@ -1,4 +1,4 @@
-package com.fourofour.home.sensor.stats.ingester.integration.http.blebox.config
+package com.eldenit.ingester.integration.sensor.blebox.config
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean

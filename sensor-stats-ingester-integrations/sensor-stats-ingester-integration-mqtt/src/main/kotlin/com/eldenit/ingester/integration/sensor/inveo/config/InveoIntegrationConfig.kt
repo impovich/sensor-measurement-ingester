@@ -1,4 +1,4 @@
-package com.fourofour.home.sensor.stats.ingester.integrations.mqtt.inveo.config
+package com.eldenit.ingester.integration.sensor.inveo.config
 
 import org.reactivestreams.Publisher
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty

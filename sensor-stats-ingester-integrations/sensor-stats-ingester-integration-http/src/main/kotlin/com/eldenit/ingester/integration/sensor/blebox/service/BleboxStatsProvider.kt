@@ -1,4 +1,4 @@
-package com.fourofour.home.sensor.stats.ingester.integration.http.blebox.service
+package com.eldenit.ingester.integration.sensor.blebox.service
 
 import org.springframework.web.reactive.function.client.WebClient
 import java.time.Duration
