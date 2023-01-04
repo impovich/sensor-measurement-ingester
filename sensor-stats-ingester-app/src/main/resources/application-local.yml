@@ -1,0 +1,28 @@
+ingester:
+  source:
+    mqtt:
+      inveo:
+        enabled: true
+        client-id: ${spring.application.name}
+        topics: [/env/sensors/sensor1, /env/sensors/sensor2, /env/sensors/sensor3]
+        sensor-meta-mapping:
+          "[/env/sensors/sensor1]":
+            name: temperature inside rack
+            type: temperature
+            location: inside rack
+          "[/env/sensors/sensor2]":
+            name: temperature outside rack
+            type: temperature
+            location: outside rack
+          "[/env/sensors/sensor3]":
+            name: humidity inside rack
+            type: humidity
+            location: inside rack
+        connection:
+          server-uris: [tcp://192.168.10.30:1883]
+          username: mqtt
+          password: A1986a1986
+    http:
+      blebox-air:
+        enabled: true
+        urls: [192.168.30.128, 192.168.30.129]
